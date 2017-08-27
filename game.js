@@ -42,8 +42,6 @@ var buttonGenerator = function (){
 	 			p.text(results[i].rating);
 	 			var p = $("<p>").text("Rating: " + results[i].rating);
 
-	 			var topicImage = $("<img>").addClass("YellowBorder");
-
 	 			topicImage.attr("src", results[i].images.fixed_height_still.url);
 	 			topicImage.attr("data-still", results[i].images.fixed_height_still.url);
 	 			topicImage.attr("data-animate", results[i].images.fixed_height.url)
