@@ -40,13 +40,13 @@ body {
 }
 
 #title {
-	color: green;
+	color: yellow;
 	text-align:center;
 	font-family: 'Arimo', sans serif;
 	padding-top:16px;
 }
 .form {
-	color: green;
+	color: yellow;
 } 
 
 #buttonArea{
