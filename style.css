@@ -1,0 +1,66 @@
+.jumbotron {
+  box-sizing: border-box;
+  height: 280px;
+  background-color: #022b6d;
+}
+
+h1.text-center {
+	color: #fff;
+	font-size: 50px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  text-align: center;
+}
+
+body {
+	background-color: #032347;
+  	margin-bottom: 60px;
+  	text-align: center;
+}
+
+#header {
+	background-color:lightblue;
+	height:70px;
+	font-size: 90px;
+}
+
+#h3 {
+	font-size: 60px;
+	font-weight: bold;
+	color: yellow;
+
+}
+
+#wrap {
+	background-color:#blue;
+	color:#red;
+}
+
+#title {
+	color: green;
+	text-align:center;
+	font-family: 'Arimo', sans serif;
+	padding-top:16px;
+}
+.form {
+	color: green;
+} 
+
+#buttonArea{
+	margin-top:10px;
+}
+
+.btn {
+	border: 1px solid;
+	background: #243951;
+	margin-left: 3px;
+	color: #FFF;
+}
+
+#gifArea {
+	margin-top: 115px;
+	margin-bottom: 90px;
+}

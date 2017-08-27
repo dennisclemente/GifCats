@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang ="en">
+    <head>
+
+        <meta charset="utf-8">
+      <title>Gif Search Engine</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    </head>
+ 
+    <body>
+
+        <div class="jumbotron container-fluid">
+    <div style="clear:both;">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">See How These Cats Keep on GIFin</h1>
+          <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+   
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="buttonArea"></div>
+    </div>
+
+    <!-- Gif area -->
+    <div class="row">
+      <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" id="gifArea"></div>
+      
+    <!-- Input area> -->    
+      <div class="col-xs-3 col-sm-3 col-md-3col-lg-3">
+        <form>
+          <fieldset>
+            <label for="topic-input"></label><br>
+            <input type="text" placeholder="Add your cat" id="topic-input">
+            <button type="submit" class="btn submit" data="submitBtn">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>      
+  </div>
+    
+    <script src="game.js"></script>
+  
+  </body>
+
+</html>
