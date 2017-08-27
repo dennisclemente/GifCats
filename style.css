@@ -45,9 +45,6 @@ body {
 	font-family: 'Arimo', sans serif;
 	padding-top:16px;
 }
-.form {
-	color: yellow;
-} 
 
 #buttonArea{
 	margin-top:10px;
@@ -55,9 +52,9 @@ body {
 
 .btn {
 	border: 1px solid;
-	background: #243951;
+	background: #d9fcd6;
 	margin-left: 3px;
-	color: #FFF;
+	color: #4f544f;
 }
 
 #gifArea {
