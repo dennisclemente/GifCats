@@ -30,9 +30,7 @@ var buttonGenerator = function (){
   			url: queryURL,
   			method: "GET" 
 
-  		}).done(function(response){
-  			console.log(response);
-  			
+  		}).done(function(response){  			
           	var results = response.data;
 
           	for (var i = 0; i < results.length; i++) {
@@ -42,6 +40,8 @@ var buttonGenerator = function (){
 	 			p.text(results[i].rating);
 	 			var p = $("<p>").text("Rating: " + results[i].rating);
 
+	 			var topicImage = $("<img>").addClass("orangeBorder");
+	 			
 	 			topicImage.attr("src", results[i].images.fixed_height_still.url);
 	 			topicImage.attr("data-still", results[i].images.fixed_height_still.url);
 	 			topicImage.attr("data-animate", results[i].images.fixed_height.url)
